@@ -1,0 +1,42 @@
+h1{
+    color:red
+}
+h2{
+    font-style: italic;
+    color: red;
+    
+}
+.ord{
+    color: chocolate;
+    line-height:40px; 
+}
+.ord1{
+    scroll-snap-destination: 0ch;
+    text-decoration-line: line-through;
+    
+}
+.ord2{
+    background-color: yellow;
+}
+.ord3{
+    text-decoration-line: underline;
+    font-style: italic;
+}
+.ul{
+    letter-spacing: 5px;
+
+}
+.ul1{
+    background-color: yellow;
+}
+.p{
+    color: chocolate;
+}
+.a{
+    color: chocolate;
+    background-color: yellow;
+    text-decoration-line: none;
+}
+#id{
+    font-style: italic
+}
