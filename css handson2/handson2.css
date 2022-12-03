@@ -1,0 +1,138 @@
+body{
+    border-style: groove;
+    border-color: chartreuse;
+    background-image: url(https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=2000);
+    margin-right: 2px;
+    height: 1800px;
+    
+    
+}
+.main1{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    
+    
+
+}
+.main1 > div {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin: 10px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 30px;
+    
+    
+    
+}
+.h{
+    margin-left: 0px;
+    width: 270px;
+    position: absolute;
+    left: 12px;
+}
+.h1{
+    margin-left: 0px;
+    width: 290px;
+    margin-right: 50px;
+    position: absolute;
+    left: 8px;
+    right: 10px;
+}
+.sub1{
+    height: 50px;
+    padding: 2rem;
+    font-size: 18px;
+    width: 200px;
+}
+.sub2{
+    height: 5px;
+    padding: 2rem;
+    font-size: 18px;
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+
+}
+.sub3{
+    height: 50px;
+    padding: 2rem;
+    font-size: 18px;
+    width: 200px;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.form{
+    
+    border-style: dashed;
+    border-color: crimson;
+    justify-content: right;
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    text-align: center;
+
+    
+}
+.menu {
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    
+    
+} 
+
+
+.sub{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 78px;
+    
+}
+.main4{
+    height: 50px;
+    width: 200px;
+    border: 4px color red;
+    background-color: black;
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    border-width: 0;
+    margin: 25px 30% 25px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border-color: red;
+    border: 4px solid red;
+    border-radius: 20px;
+    position: absolute;
+    top: 90%;
+}
+.main5 > div {
+    margin: 20px 100px;
+    border: 5px solid plum;
+    background-color: rgb(144, 209, 13);
+    color: fuchsia;
+    width: 25%;
+    text-align: center;
+
+}
+.main5{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 110%;
+}
