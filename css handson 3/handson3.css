@@ -1,0 +1,106 @@
+.main1{
+    border: 4px solid red;
+    border-radius: 20PX;
+    margin: 0% 40%;
+    padding: 5px 10px;
+    text-align: center;
+    color: rgb(235, 11, 235);
+    box-shadow: 12px 10px pink;
+
+
+}
+body{
+    background-color: bisque;
+}
+.main2{
+    border: 2px solid green;
+    height: 500px;
+    display: flex;
+    position: relative;
+    
+}
+.main2 > div{
+    border: 2px solid blueviolet;
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: lightseagreen;
+    box-shadow: 3px 3px yellow;
+}
+.address{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.img{
+    position:absolute;
+    top:25px;
+    right:25px;
+}
+.serve{
+    position: relative;
+    top: 250px;
+    left:25px;
+}
+.rate{
+    position: absolute;
+    top: 250px;
+    right:25px ;
+}
+.bigb{
+    border: green 5px solid;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 800px;
+    margin-left: 350px;
+    background-color: green;
+    border-color: purple;
+    font-size: 25px;
+    text-align: center;
+}
+.fruits{
+    border-style: none;
+    border: 15px;
+    background-color: beige;
+    font-size: 15px;
+
+}
+.veg{
+    border-style: none;
+    border: 10px;
+    background-color: beige;
+    font-size: 15px;
+
+
+}
+.other{
+    border-style: none;
+    border: 10px;
+    background-color: beige;
+    font-size: 15px;
+
+
+
+}
+h4{
+    font-size: 15px;
+}
+.offer{
+    color: crimson;
+    border: pink 4px solid;
+    box-shadow: 3px 3px purple;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: chartreuse;
+    position: fixed;
+    top: 500px;
+    z-index: auto;
+    left: 500px;
+}
