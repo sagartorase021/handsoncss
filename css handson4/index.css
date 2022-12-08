@@ -1,0 +1,155 @@
+.our{
+    background-color: ;
+    background-image: linear-gradient(45deg, red green yellow);
+    background-image: linear-gradient(45deg, red, green,yellow);
+    text-align: center;
+}
+.home{
+    padding: 0px 0px 0px 0px;
+    border: 5px solid red;
+    background-color: rgb(134, 203, 203);
+    list-style-position: inside;
+    height: 70px;
+    width: 400px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.h1{
+    position: absolute;
+    left: 175px;
+    top: 1px;
+}
+.home > li {
+    position: relative;
+}
+.para{
+    margin: 0px 0px;
+    border: 2px solid chocolate;
+    border-radius: 2px;
+    background-color: aqua;
+    justify-content: space-around;
+    height: 150px;
+}
+.p1{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: beige;
+    height: 70px;
+    width: 350px;
+    background-color: aqua
+
+}
+.p2{
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
+.p2 > p {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: beige;
+    height: 70px;
+    width: 350px;
+    background-color: aqua
+}
+.p3{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    background-color: beige;
+    height: 70px;
+    width: 350px;
+    background-color: aqua;
+    position: absolute;
+    right: 10.5px;
+    top: 150px;
+
+}
+.top{
+   
+    background-image: linear-gradient(315deg, red, orange,red);
+    text-align: center;
+}
+.akash{
+    display: flex;
+    height: 200px;
+    border: 2px solid green;
+    background-image: radial-gradient(blue,yellowgreen);
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.akash > div {
+    border: 2px solid black;
+    align-items: center;
+    align-content: center;
+    height: 70px;
+    width: 160px;
+    background-color: yellow;
+    color: orange;
+    text-decoration: underline;
+    border-radius: 10px;
+   
+}
+.grid{
+    border: 3px solid brown;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 30% 30% 30% 7%;
+    grid-gap: 0.7%;
+    grid-template-rows: 10% 25% 40% 10%;
+    grid-row-gap: 5%;
+    height: 300px;
+}
+.item{
+   background-color: ;
+
+}
+.item1{
+    background-color: red;
+    grid-column: 1/5;
+    text-align: center;
+
+
+}
+.item2{
+    background-color: green;
+
+}
+.item3{
+    background-color: darkcyan;
+}
+.item4{
+    background-color: aquamarine;
+
+}
+.item5{
+    background-color: pink;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.item6{
+    background-color: powderblue;
+    grid-column: 1/4;
+}
+.item7{
+    background-color: red;
+    grid-column: 1/5;
+    text-align: center;
+    
+}
